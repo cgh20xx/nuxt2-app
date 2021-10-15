@@ -7,8 +7,11 @@
 
 <script>
 export default {
+  created() {
+    console.log('created index.vue')
+  },
   mounted() {
-    console.log('mounted index.vue')
+    // console.log('mounted index.vue')
   },
   head() {
     return this.$nuxtI18nHead()

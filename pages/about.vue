@@ -8,8 +8,11 @@
 
 <script>
 export default {
+  created() {
+    console.log('created about.vue')
+  },
   mounted() {
-    console.log('mounted about.vue')
+    // console.log('mounted about.vue')
   },
   data() {
     return {
