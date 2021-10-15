@@ -2,5 +2,10 @@
   "home": "Home",
   "about": "About",
   "homeH1": "This is home page.",
-  "aboutH1": "This is about page."
+  "aboutH1": "This is about page.",
+  "news": "news",
+  "wow": "Complete the questionnaire to earn points and redeem various gift cards.",
+  "navi": {
+    "home": "test"
+  }
 }
