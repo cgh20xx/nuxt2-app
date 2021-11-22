@@ -68,7 +68,7 @@ export default {
       },
     ],
     langDir: '~/locales/',
-    defaultLocale: 'zh-TW',
+    defaultLocale: 'en',
     lazy: true,
     // vueI18n: {
     //   fallbackLocale: 'zh',
