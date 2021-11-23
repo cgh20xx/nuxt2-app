@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navi />
     <h1 v-html="$t('homeH1')"></h1>
     <!-- <img src="/favicon.ico" alt="" /> -->
 
@@ -20,6 +19,7 @@ export default {
   // head() {
   //   return this.$nuxtI18nHead()
   // },
+  layout: 'LayoutDefault',
   head() {
     return {
       // https://thenextbit.de/en/blog/nuxtjs-seo

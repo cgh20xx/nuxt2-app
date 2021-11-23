@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navi />
     <h1>{{ $t('aboutH1') }}</h1>
     <div>{{ count }}</div>
   </div>
@@ -14,6 +13,7 @@ export default {
   mounted() {
     // console.log('mounted about.vue')
   },
+  layout: 'LayoutMain',
   data() {
     return {
       count: 0,

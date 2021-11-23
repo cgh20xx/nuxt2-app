@@ -58,12 +58,10 @@ export default {
     locales: [
       {
         code: 'zh-TW',
-        iso: 'zh-TW',
         file: 'zh-TW.json',
       },
       {
         code: 'en',
-        iso: 'en-US',
         file: 'en.json',
       },
     ],
