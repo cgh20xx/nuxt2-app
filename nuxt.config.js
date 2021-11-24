@@ -59,15 +59,22 @@ export default {
       {
         code: 'zh-TW',
         file: 'zh-TW.json',
+        iso: 'zh-TW',
       },
       {
-        code: 'en',
-        file: 'en.json',
+        code: 'en-US',
+        file: 'en-US.json',
+        iso: 'en-US',
       },
     ],
     langDir: '~/locales/',
-    defaultLocale: 'en',
+    defaultLocale: 'en-US',
     lazy: true,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root', // recommended
+    },
     // vueI18n: {
     //   fallbackLocale: 'zh',
     //   messages: {

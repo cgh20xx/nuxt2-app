@@ -3,6 +3,7 @@
     <h1>{{ $t('termsH1') }}</h1>
     <p>123</p>
     <component :is="localTerms" />
+    <!-- <component :is="'TermsEnUs'" /> -->
     <!-- <my-terms /> -->
     <!-- <TermsZhTw /> -->
     <!-- <TermsEn /> -->
@@ -11,6 +12,7 @@
 
 <script>
 export default {
+  layout: 'LayoutDefault',
   asyncData() {
     console.log('asyncData terms.vue')
   },

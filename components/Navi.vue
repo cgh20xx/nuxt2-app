@@ -8,7 +8,7 @@
     }}</nuxt-link> -->
     <br />
     <nuxt-link :to="switchLocalePath('zh-TW')">中文</nuxt-link>
-    <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
+    <nuxt-link :to="switchLocalePath('en-US')">English</nuxt-link>
   </div>
 </template>
 

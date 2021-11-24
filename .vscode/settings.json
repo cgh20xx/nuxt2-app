@@ -3,8 +3,8 @@
     "editor.defaultFormatter": "octref.vetur"
   },
   "i18n-ally.localesPaths": "locales",
-  "i18n-ally.sourceLanguage": "zh-TW",
+  "i18n-ally.sourceLanguage": "en-US",
   "i18n-ally.keystyle": "nested",
-  "i18n-ally.theme.annotation": "rgb(216, 216, 100)",
-  // "i18n-ally.theme.annotationBorder": "transparent",
+  "i18n-ally.theme.annotation": "rgb(225, 150, 225)",
+  // "i18n-ally.theme.annotationBorder": "rgba(153, 153, 153, .8)",
 }
